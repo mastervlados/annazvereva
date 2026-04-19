@@ -1,5 +1,5 @@
 import ContentWithOverlay from '../ContentWithOverlay'
-import './App.module.css'
+import styles from './App.module.css'
 
 function App() {
 

@@ -1,0 +1,35 @@
+.link {
+    display: block;
+    border-radius: 10px;
+    width: 156px;
+    height: 48px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.image {
+    width: 36px;
+    height: 36px;
+    display: block;
+    padding-left: 8px;
+}
+
+.content {
+    width: 100%;
+}
+
+.text {
+    font-size: 16px;
+    font-family: 'Montserrat SemiBold';
+    font-weight: 600;
+}
+
+.textAlternate {
+    font-size: 12px;
+}
