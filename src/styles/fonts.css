@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'Impact';
+	src: url('../assets/fonts/impact/impact.eot'); /* IE 9 Compatibility Mode */
+	src: url('../assets/fonts/impact/impact.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../assets/fonts/impact/impact.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../assets/fonts/impact/impact.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../assets/fonts/impact/impact.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../assets/fonts/impact/impact.svg#impact') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Regular'), url('../assets/fonts/montserrat/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Medium'), url('../assets/fonts/montserrat/Montserrat-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat SemiBold'), url('../assets/fonts/montserrat/Montserrat-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Bold'), url('../assets/fonts/montserrat/Montserrat-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Light'), url('../assets/fonts/montserrat/Montserrat-Light.woff') format('woff');
+}
