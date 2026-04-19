@@ -1,10 +1,11 @@
-import './App.css'
+import ContentWithOverlay from '../ContentWithOverlay'
+import './App.module.css'
 
 function App() {
 
   return (
     <>
-     
+     <ContentWithOverlay/>
     </>
   )
 }
