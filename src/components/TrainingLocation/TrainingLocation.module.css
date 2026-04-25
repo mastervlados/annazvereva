@@ -3,6 +3,18 @@
     /* border: 1px solid brown; */
 }
 
+.addressContainer {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.address {
+    font-family: 'Montserrat Light';
+    font-weight: 300;
+    font-style: normal;
+}
+
 @media (max-width: 1024px) {
     .container {
         width: 100%;
