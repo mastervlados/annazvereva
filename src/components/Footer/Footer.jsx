@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer>
         <div className={`wrap ${styles.main}`}> 
-            <div className={[styles.container]}>
+            <div className={`${styles.container}`}>
                 <h3 className={[styles.ulHeading]}>Образование:</h3>
                 <ul className={[styles.ul]}>
                     <li>НГУ. Им. Лесгафта. Адаптивная физическая культура</li>

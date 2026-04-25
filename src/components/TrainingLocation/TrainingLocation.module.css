@@ -1,0 +1,10 @@
+.container {
+    width: 48%;
+    /* border: 1px solid brown; */
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+}
