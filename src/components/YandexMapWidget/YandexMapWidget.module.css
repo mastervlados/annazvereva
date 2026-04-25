@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.link {
+    color: #eee;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+}
+
+.iframe {
+    position: relative;
+    width: 560px;
+    height: 400px;
+}

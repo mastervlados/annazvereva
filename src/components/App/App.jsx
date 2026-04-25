@@ -1,5 +1,6 @@
 import ContentWithOverlay from '../ContentWithOverlay'
 import Footer from '../Footer'
+import YandexMapWidget from '../YandexMapWidget'
 import styles from './App.module.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
      <ContentWithOverlay/>
+     <YandexMapWidget/>
      <Footer/>
     </>
   )
