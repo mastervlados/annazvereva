@@ -1,0 +1,109 @@
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    height: 48px;
+}
+
+.insideContainer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.buttonText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@keyframes slideme {
+    0% {
+      left: -30px;
+      margin-left: 0px;
+    }
+    30% {
+      left: 110%;
+      margin-left: 80px;
+    }
+    100% {
+      left: 110%;
+      margin-left: 80px;
+    }
+  }
+  
+  .vkButton {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .vkButton:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 200px;
+    margin-left: 60px;
+    background: #fff;
+    opacity: 0.5;
+    position: absolute;
+    left: -40px;
+    top: -100px;
+    z-index: 1;
+    transform: rotate(45deg);
+    transition: all 0.1s;
+    animation-name: slideme;
+    animation-duration: 3s;
+    animation-delay: 0.05s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+.vkButton {
+    background: linear-gradient(135deg, #0077FF 0%, #0055CC 100%);
+    &:hover {
+        background: linear-gradient(135deg, #0088FF 0%, #0066DD 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 119, 255, 0.3);
+    }
+    
+    &:active {
+        transform: translateY(0);
+        background: linear-gradient(135deg, #0066DD 0%, #0044AA 100%);
+    }
+}
+
+.igButton {
+    background: radial-gradient(circle at 30% 110%, 
+        #f9ce34 0%, 
+        #ee2a7b 50%, 
+        #6228d7 100%);
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(225, 48, 108, 0.4);
+        filter: brightness(1.05);
+    }
+    
+    &:active {
+        transform: translateY(0);
+        filter: brightness(0.95);
+    }
+}
+
+.tgButton {
+    background: linear-gradient(135deg, #26A5E4 0%, #1E96D0 100%);
+    &:hover {
+        background: linear-gradient(135deg, #32B5F0 0%, #24A0D6 100%);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(38, 165, 228, 0.4);
+    }
+    
+    &:active {
+        transform: translateY(0);
+        background: linear-gradient(135deg, #1E96D0 0%, #1888B8 100%);
+    }
+}

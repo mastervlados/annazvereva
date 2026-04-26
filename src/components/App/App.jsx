@@ -1,3 +1,4 @@
+import ContactMeModule from '../../modules/ContactMeModule/ContactMeModule'
 import TrainingLocationModule from '../../modules/TrainingLocationModule'
 import ContentWithOverlay from '../ContentWithOverlay'
 import Footer from '../Footer'
@@ -8,7 +9,9 @@ function App() {
   return (
     <>
      <ContentWithOverlay/>
+     <ContactMeModule/>
      <TrainingLocationModule/>
+     <ContactMeModule/>
      <Footer/>
     </>
   )
