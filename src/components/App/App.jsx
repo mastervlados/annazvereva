@@ -1,4 +1,5 @@
 import ContactMeModule from '../../modules/ContactMeModule/ContactMeModule'
+import CustomersModule from '../../modules/CustomersModule'
 import TrainingLocationModule from '../../modules/TrainingLocationModule'
 import ContentWithOverlay from '../ContentWithOverlay'
 import Footer from '../Footer'
@@ -11,6 +12,7 @@ function App() {
      <ContentWithOverlay/>
      <div className={styles.roof}></div>
      <ContactMeModule/>
+     <CustomersModule/>
      <TrainingLocationModule/>
      <ContactMeModule/>
      <Footer/>
