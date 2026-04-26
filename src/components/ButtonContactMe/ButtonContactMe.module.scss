@@ -64,6 +64,7 @@
   }
 
 .vkButton {
+    z-index: 1500;
     background: linear-gradient(135deg, #0077FF 0%, #0055CC 100%);
     &:hover {
         background: linear-gradient(135deg, #0088FF 0%, #0066DD 100%);
@@ -78,6 +79,7 @@
 }
 
 .igButton {
+    z-index: 1501;
     background: radial-gradient(circle at 30% 110%, 
         #f9ce34 0%, 
         #ee2a7b 50%, 
@@ -95,6 +97,7 @@
 }
 
 .tgButton {
+    z-index: 1502;
     background: linear-gradient(135deg, #26A5E4 0%, #1E96D0 100%);
     &:hover {
         background: linear-gradient(135deg, #32B5F0 0%, #24A0D6 100%);

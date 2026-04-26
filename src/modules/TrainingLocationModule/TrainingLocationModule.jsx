@@ -14,7 +14,6 @@ function TrainingLocationModule() {
           <YandexMapWidget/>
       </div>
     </section>
-
   )
 }
 

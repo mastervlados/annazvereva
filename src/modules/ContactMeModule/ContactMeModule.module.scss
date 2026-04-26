@@ -26,4 +26,24 @@
     top: 0;
     right: 0;
     opacity: .4;
+    z-index: 999;
+}
+
+@media (max-width: 1024px) {
+    .container div {
+        width: 50%;
+    }
+    .dummyDiv {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .container div {
+        width: 100%;
+    }
 }

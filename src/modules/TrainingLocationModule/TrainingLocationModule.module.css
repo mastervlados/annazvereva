@@ -3,6 +3,7 @@
     justify-content: space-between;
     width: 100%;
     /* border: 1px solid red; */
+    margin-bottom: 48px;
 }
 
 @media (max-width: 1024px) {

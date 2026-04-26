@@ -1,5 +1,6 @@
 .container {
     color: #FFFFFF;
+    z-index: 2000;
 }
 
 .description {
@@ -10,7 +11,7 @@
     font-size: 18px;
     font-weight: 600;
     margin: 20px 0;
-    color: #4A7898;
+    color: #2585c9;
 }
 
 .heading {
@@ -21,4 +22,10 @@
 }
 .ul li::before {
     content: '✅ ';
+}
+
+@media (max-width: 420px) {
+    .service {
+        color: #FFFFFF;
+    }
 }
