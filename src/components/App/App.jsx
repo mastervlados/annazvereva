@@ -9,6 +9,7 @@ function App() {
   return (
     <>
      <ContentWithOverlay/>
+     <div className={styles.roof}></div>
      <ContactMeModule/>
      <TrainingLocationModule/>
      <ContactMeModule/>

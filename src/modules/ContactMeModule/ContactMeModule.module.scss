@@ -1,4 +1,18 @@
-.buttonsContainer {
+.section {
+    background: linear-gradient(180deg, #05102B 0%, #020814 100%);
+    padding: 48px;
+}
+.container {
     display: flex;
     justify-content: space-around;
+}
+
+.container div {
+    width: 25%;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }

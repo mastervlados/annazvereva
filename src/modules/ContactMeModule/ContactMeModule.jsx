@@ -32,15 +32,21 @@ function ContactMeModule() {
   }
 
   return (
-    <section>
-        <p>Для тебя я буду не только тренером, который поможет в достижении результатов, но и хорошим другом!</p>
-        <p>Стаж с 2021 года ({calulateNumberYearsElapsed(2021)})</p>
-        <div className={styles.buttonsContainer}>
-          <ButtonContactMe {...vkButtonProps}/>
-          <ButtonContactMe {...igButtonProps}/>
-          <ButtonContactMe {...tgButtonProps}/>
-        </div>
+    <section className={styles.section}>
+        <div className={`wrap ${styles.container}`}>
+          <div>
+            <p>Для тебя я буду не только тренером, который поможет в достижении результатов, но и хорошим другом!</p>
+            <p>Стаж с 2021 года ({calulateNumberYearsElapsed(2021)})</p>
+          </div>
+          <div className={styles.buttonsContainer}>
+            <ButtonContactMe {...vkButtonProps}/>
+            <ButtonContactMe {...igButtonProps}/>
+            <ButtonContactMe {...tgButtonProps}/>
+          </div>
+          <div>
 
+          </div>
+        </div>
     </section>
   )
 }
