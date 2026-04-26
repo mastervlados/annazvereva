@@ -1,8 +1,8 @@
 import ButtonContactMe from '../../components/ButtonContactMe'
+import PartnershipOptions from '../../components/PartnershipOptions'
 import IconInstagram from '../../components/ui/IconInstagram'
 import IconTelegram from '../../components/ui/IconTelegram'
 import IconVK from '../../components/ui/IconVK'
-import { calulateNumberYearsElapsed } from '../../utils/helpers'
 import styles from './ContactMeModule.module.scss'
 
 function ContactMeModule() {
@@ -34,10 +34,7 @@ function ContactMeModule() {
   return (
     <section className={styles.section}>
         <div className={`wrap ${styles.container}`}>
-          <div>
-            <p>Для тебя я буду не только тренером, который поможет в достижении результатов, но и хорошим другом!</p>
-            <p>Стаж с 2021 года ({calulateNumberYearsElapsed(2021)})</p>
-          </div>
+          <PartnershipOptions/>
           <div className={styles.buttonsContainer}>
             <ButtonContactMe {...vkButtonProps}/>
             <ButtonContactMe {...igButtonProps}/>

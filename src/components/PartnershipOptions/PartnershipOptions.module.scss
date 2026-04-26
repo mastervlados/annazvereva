@@ -1,0 +1,24 @@
+.container {
+    color: #FFFFFF;
+}
+
+.description {
+    font-size: 15px;
+}
+
+.service {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #4A7898;
+}
+
+.heading {
+    font-weight: 600;
+}
+.ul li {
+    margin: 12px 0;
+}
+.ul li::before {
+    content: '✅ ';
+}
