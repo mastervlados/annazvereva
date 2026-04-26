@@ -1,10 +1,12 @@
 .section {
     background: linear-gradient(180deg, #05102B 0%, #020814 100%);
-    padding: 48px;
+    padding: 48px 0;
+    position: relative;
+    overflow: hidden;
 }
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .container div {
@@ -15,4 +17,13 @@
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .4;
 }

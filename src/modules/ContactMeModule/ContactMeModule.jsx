@@ -40,10 +40,9 @@ function ContactMeModule() {
             <ButtonContactMe {...igButtonProps}/>
             <ButtonContactMe {...tgButtonProps}/>
           </div>
-          <div>
-
-          </div>
+          <div/>
         </div>
+        <img src="https://light-vision.ucoz.ru/fairy/images/friendly.png" className={styles.image} alt="" />
     </section>
   )
 }
