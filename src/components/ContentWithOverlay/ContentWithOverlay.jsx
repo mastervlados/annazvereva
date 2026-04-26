@@ -6,7 +6,7 @@ import styles from './ContentWithOverlay.module.css'
 function ContentWithOverlay() {
 
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
         <div>
             <MainPoster/>
             <MainVideo/>
@@ -15,7 +15,7 @@ function ContentWithOverlay() {
         <div className={styles.contentArea}>
             <MainContent/>
         </div>
-    </div>
+    </main>
   )
 }
 

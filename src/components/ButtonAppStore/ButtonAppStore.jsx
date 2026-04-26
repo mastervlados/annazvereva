@@ -8,11 +8,12 @@ function ButtonAppStore({ store }) {
             link: 'https://www.rustore.ru/catalog/app/com.vladelizarov.gymbro',
             iconSrc: 'https://light-vision.ucoz.ru/fairy/market/RuStore.png',
             backgroundColor: '#ffffff',
-            textColor: '#000000'
+            textColor: '#000000',
+
         },
         appgallery: {
             storeName: 'AppGallery',
-            text: 'Get it On',
+            text: 'Доступно в',
             link: 'https://appgallery.huawei.com/app/C117233503',
             iconSrc: 'https://light-vision.ucoz.ru/fairy/market/AppGallery.png',
             backgroundColor: '#000000',
@@ -26,9 +27,10 @@ function ButtonAppStore({ store }) {
             target="_blank" 
             className={styles.link}
             style={{ backgroundColor: content[store].backgroundColor }}
+            alt={`Программы тренировок для женщин - скачайте в ${content[store].storeName}`}
         >
             <div className={styles.container}>
-                <img src={content[store].iconSrc} className={styles.image}/>
+                <img src={content[store].iconSrc} className={styles.image} alt={`${content[store].storeName} logo`}/>
                 <div className={styles.content}>
                     <p 
                         className={styles.textAlternate}
