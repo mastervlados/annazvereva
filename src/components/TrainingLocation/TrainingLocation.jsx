@@ -10,7 +10,6 @@ function TrainingLocation() {
             <IconPlace width={20} height={20} color='#333'/>
             <address className={styles.address}>Санкт-Петербург, Клуб FitnessHouse, ул. Фучика, 2</address>
         </p>
-        <TrainingLocationImages/>
     </div>
   )
 }

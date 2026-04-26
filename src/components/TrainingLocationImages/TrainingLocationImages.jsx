@@ -1,12 +1,12 @@
-import styles from './TrainingLocationImages.module.css'
+import styles from './TrainingLocationImages.module.scss'
 
 function TrainingLocationImages() {
 
   return (
     <div className={styles.container}>
-        <figure className={styles.fig}>
+        <figure className={`${styles.fig} ${styles.figMain}`}>
             <img 
-                className={`${styles.image} ${styles.imageFullSize}`} 
+                className={`${styles.image}`} 
                 src="https://light-vision.ucoz.ru/fairy/images/gym/gym_1.jpg" 
                 alt="Кардиозона" />
             <div className={styles.figBG}/>
@@ -15,9 +15,9 @@ function TrainingLocationImages() {
             </figcaption>              
         </figure>
         <div className={styles.insideContainer}>
-            <figure className={styles.fig}>
+            <figure className={`${styles.fig} ${styles.figAlt}`}>
                 <img 
-                    className={`${styles.image} ${styles.imageHalfSize} ${styles.imageTop}`} 
+                    className={`${styles.image}`} 
                     src="https://light-vision.ucoz.ru/fairy/images/gym/gym_3.jpg" 
                     alt="Малый зал" />
                 <div className={styles.figBG}/>
@@ -25,12 +25,12 @@ function TrainingLocationImages() {
                     Малый зал 
                 </figcaption>     
             </figure>
-            <figure className={styles.fig}>
+            <figure className={`${styles.fig} ${styles.figAlt}`}>
                 <img 
-                    className={`${styles.image} ${styles.imageHalfSize} ${styles.imageBottom}`} 
+                    className={`${styles.image}`} 
                     src="https://light-vision.ucoz.ru/fairy/images/gym/gym_2.jpg" 
                     alt="Тренажерный зал" />
-                <div className={`${styles.figBG} ${styles.figBGHidden}`}/>
+                <div className={`${styles.figBG}`}/>
                 <figcaption className={styles.figcaption}>
                     Тренажерный зал
                 </figcaption>

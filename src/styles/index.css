@@ -31,6 +31,9 @@ body {
   .wrap {
       max-width: 300px;
   }
+  .section-heading {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 1770px) and (min-width: 420px) {

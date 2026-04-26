@@ -1,6 +1,6 @@
 .container {
-    width: 48%;
     /* border: 1px solid brown; */
+    margin-bottom: 18px;
 }
 
 .addressContainer {
@@ -18,5 +18,11 @@
 @media (max-width: 1024px) {
     .container {
         width: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .addressContainer {
+        align-items: start;
     }
 }
