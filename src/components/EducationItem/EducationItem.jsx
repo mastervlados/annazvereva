@@ -7,8 +7,8 @@ function EducationItem({ key, organization, about, icon: Icon }){
             { Icon }
         </div>
         <div className={styles.descriptionContainer}>
-            <h3 className={styles.organization}>{ organization }</h3>
-            <h4 className={styles.about}>{ about }</h4>
+            <h4 className={styles.organization}>{ organization }</h4>
+            <h3 className={styles.about}>{ about }</h3>
         </div>
     </div>
   )
