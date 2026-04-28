@@ -15,8 +15,8 @@ function ButtonContactMe({ type, href, alt, icon: Icon, text }) {
         alt={alt}
     >
         <p className={styles.insideContainer}>
-            { Icon }
-            <span className={styles.buttonText}>{ text }</span>
+            <span className={styles.iconContainer}>{ Icon }</span>
+            <span className={`alt-text ${styles.buttonText}`}>{ text }</span>
         </p>
     </a>
   )

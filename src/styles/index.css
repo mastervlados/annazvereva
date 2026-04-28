@@ -5,11 +5,12 @@
   font-weight: 400;
   text-decoration: none;
   font-size: 16px;
-  color: '#333333';
+  color: #4A4A4A;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
-
+/* #F8F9FA */
 body {
   background-color: #ffffff;
 }
@@ -22,9 +23,14 @@ body {
 }
 
 .section-heading {
+  color: #1A1A1A;
   font-weight: 600;
   font-size: 28px;
   margin: 50px 0 30px 0;
+}
+
+.alt-text {
+  color: #F8F9FA;
 }
 
 @media (max-width: 420px) {

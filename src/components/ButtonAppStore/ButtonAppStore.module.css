@@ -14,7 +14,7 @@
 }
 
 .image {
-    width: 36px;
+    width: auto;
     height: 36px;
     display: block;
     padding-left: 8px;

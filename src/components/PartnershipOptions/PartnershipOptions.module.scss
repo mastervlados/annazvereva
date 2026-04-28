@@ -1,31 +1,31 @@
 .container {
-    color: #FFFFFF;
     z-index: 2000;
 }
 
 .description {
     font-size: 15px;
+    max-width: 450px;
 }
 
 .service {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 300;
     margin: 20px 0;
-    color: #2585c9;
+    color: #E6F27A;
 }
 
 .heading {
     font-weight: 600;
 }
-.ul li {
+.ul h3 {
     margin: 12px 0;
 }
-.ul li::before {
+.ul h3::before {
     content: '✅ ';
 }
 
 @media (max-width: 420px) {
     .service {
-        color: #FFFFFF;
+        // color: #F8F9FA;
     }
 }

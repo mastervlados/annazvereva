@@ -12,7 +12,7 @@ function ContactMeModule() {
     href: 'https://vk.com/anyachokavo',
     alt: 'Страница тренера Вконтакте',
     text: 'Напишите Вконтакте',
-    icon: <IconVK width={30} height={30} color={'#FFFFFF'}/>
+    icon: <IconVK width={28} height={28} color={'#F8F9FA'}/>
   }
 
   const igButtonProps = {
@@ -20,7 +20,7 @@ function ContactMeModule() {
     href: 'https://www.instagram.com/anyachokavo/',
     alt: 'Instagram тренера',
     text: 'Оставьте DM в Instagram',
-    icon: <IconInstagram  width={30} height={30} color={'#FFFFFF'}/>
+    icon: <IconInstagram  width={28} height={28} color={'#F8F9FA'}/>
   }
 
   const tgButtonProps = {
@@ -28,7 +28,7 @@ function ContactMeModule() {
     href: 'https://t.me/anyachokavo',
     alt: 'Продолжить в Telegram мессенджере',
     text: 'Продолжим в Telegram',
-    icon: <IconTelegram  width={29} height={29} color={'#FFFFFF'}/>
+    icon: <IconTelegram  width={27} height={27} color={'#F8F9FA'}/>
   }
 
   return (

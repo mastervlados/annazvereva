@@ -3,16 +3,16 @@ import styles from './MainContent.module.css'
 
 function MainContent() {
     return (
-        <div className={`wrap ${styles.container}`}>
-            <h1 className={styles.heading}>Анна Зверева</h1>
-            <p className={styles.position}>💪Персональный тренер тренажерного зала</p>
+        <main className={`wrap ${styles.container}`}>
+            <h1 className={`alt-text ${styles.heading}`}>Анна Зверева</h1>
+            <h2 className={`alt-text ${styles.position}`}>💪Фитнес-тренер</h2>
             <p className={styles.description}>В своих тренировочных программах делаю акцент на ягодицы и осанку</p>
-            <p className={styles.promo}>Начните БЕСПЛАТНО прямо сейчас!</p>
+            <p className={`alt-text ${styles.promo}`}>Начните БЕСПЛАТНО прямо сейчас!</p>
             <div className={styles.buttonsContainer}>
                 <ButtonAppStore store={'rustore'}/>
                 <ButtonAppStore store={'appgallery'}/>
             </div>
-        </div>  
+        </main>  
     )
 }
 

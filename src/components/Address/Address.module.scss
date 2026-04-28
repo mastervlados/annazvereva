@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.address {
+    font-style: normal;
+}
+
+@media (max-width: 420px) {
+    .container {
+        align-items: start;
+    }
+}

@@ -1,25 +1,33 @@
 .button {
     cursor: pointer;
     display: flex;
-    justify-content: center;
     align-items: center;
     border: none;
     border-radius: 10px;
     text-decoration: none;
-    color: white;
-    width: 250px;
+    width: 248px;
     height: 48px;
+    overflow: hidden;
 }
 
 .insideContainer {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 0px;
+}
+
+.iconContainer {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid brown;
 }
 
 .buttonText {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 @keyframes slideme {
