@@ -11,7 +11,6 @@
 }
 
 .position {
-    font-family: 'Montserrat SemiBold';
     font-weight: 600;
     font-size: 20px;
 }
@@ -19,14 +18,12 @@
 .description {
     max-width: 390px;
     margin-top: 20px;
-    font-family: 'Montserrat Regular';
     font-size: 16px;
     color: #E2E4E8;
 }
 
 .promo {
     margin: 20px 0 60px 0;
-    font-family: 'Montserrat SemiBold';
     font-weight: 600;
     font-size: 16px;
 }
