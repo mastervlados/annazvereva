@@ -1,3 +1,10 @@
 .container {
     padding-bottom: 36px;
 }
+
+.insideContainer {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px
+}

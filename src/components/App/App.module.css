@@ -1,4 +1,11 @@
 .roof {
-    height: 6px;
-    background-color: #01275B;
+    /* height: 6px; */
+    background: linear-gradient(360deg, #05102B 0%, #020814 100%);
+    text-align: center;
+    padding: 18px 0;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 18px;
 }
